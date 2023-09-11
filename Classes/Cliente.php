@@ -6,6 +6,7 @@ require_once 'DatabaseConnect.php';
 
 use DbConnect\DatabaseConnect, PDO, PDOException;
 
+
 final class Cliente extends DatabaseConnect{
     
     protected object $conn;
